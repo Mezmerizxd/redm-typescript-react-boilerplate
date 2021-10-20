@@ -1,0 +1,31 @@
+.example-container {
+    background: rgb(32, 37, 42); 
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 2px;
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    right: 0;
+    .example {
+        margin: 10px 10px;
+        h1 {
+            color: rgb(230, 230, 230);
+            text-align: center;
+            padding: 5px 5px;
+        }
+        .content {
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            color: rgb(230, 230, 230);
+            font-size: 20px;
+        }
+        a {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            p { padding: 5px 5px; }
+        }
+    }
+}
