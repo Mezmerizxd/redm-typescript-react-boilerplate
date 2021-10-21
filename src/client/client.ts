@@ -8,6 +8,7 @@ RegisterCommand("example", () => {
   if (isToggled){
     SetNuiFocus(false, false);
     SendNuiMessage(JSON.stringify({action: "nui-example", data: false}));
+    isToggled = false;
   }else{
     SetNuiFocus(true, true);
     SendNuiMessage(JSON.stringify({action: "nui-example", data: true}));
